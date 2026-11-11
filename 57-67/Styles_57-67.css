@@ -1,0 +1,114 @@
+.box-shadow {
+    padding:24px;
+    background:white;
+    box-shadow:0 8px 22px #999
+}
+
+
+.linear {
+    padding:30px;
+    background:linear-gradient(90deg,#38bdf8,#8b5cf6);
+    color:white
+}
+
+
+.radial {
+    padding:30px;
+    background:radial-gradient(circle,#fde68a,#f97316);
+    color:#431407
+}
+
+
+.repeat-linear {
+    padding:30px;
+    background:repeating-linear-gradient(45deg,#fff 0 10px,#2563eb 10px 20px)
+}
+
+
+.repeat-radial {
+    padding:30px;
+    background:repeating-radial-gradient(circle,#fef3c7 0 8px,#f59e0b 8px 16px)
+}
+
+
+.transition {
+    padding:12px 22px;
+    background:#2563eb;
+    color:white;
+    border:0;
+    transition:transform .3s,background .3s
+}
+
+.transition:hover {
+    transform:scale(1.08);
+    background:#16a34a
+}
+
+
+.animation {
+    width:100px;
+    padding:16px;
+    background:#f97316;
+    animation:move 3s infinite alternate
+}
+
+@keyframes move {
+    to {
+    transform:translateX(180px)
+}
+
+
+}
+
+
+.short-animation {
+    width:120px;
+    padding:12px;
+    background:#06b6d4;
+    animation:pulse 1.5s ease-in-out infinite alternate
+}
+
+@keyframes pulse {
+    to {
+    opacity:.3;
+    transform:scale(1.15)
+}
+
+
+}
+
+
+.state {
+    width:180px;
+    padding:12px;
+    background:#a855f7;
+    animation:spin 2s linear infinite
+}
+
+.state:hover {
+    animation-play-state:paused
+}
+
+@keyframes spin {
+    to {
+    transform:rotate(360deg)
+}
+
+
+}
+
+
+.rotate {
+    width:100px;
+    padding:15px;
+    background:#facc15;
+    transform:rotate(-8deg)
+}
+
+
+.scale {
+    width:100px;
+    padding:15px;
+    background:#4ade80;
+    transform:scale(1.25)
+}

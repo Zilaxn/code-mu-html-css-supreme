@@ -1,0 +1,88 @@
+.letters {
+    letter-spacing:8px
+}
+
+.words {
+    word-spacing:22px
+}
+
+
+.upper {
+    text-transform:uppercase
+}
+
+.lower {
+    text-transform:lowercase
+}
+
+.cap {
+    text-transform:capitalize
+}
+
+
+.last {
+    text-align:justify;
+    text-align-last:center
+}
+
+
+.first-letter::first-letter {
+    font-size:3em;
+    color:#d14;
+    font-weight:bold
+}
+
+
+.first-line {
+    max-width:360px
+}
+
+.first-line::first-line {
+    color:#1677d2;
+    font-weight:bold
+}
+
+
+.pre {
+    white-space:pre;
+    background:#f1f5f9;
+    padding:12px
+}
+
+
+pre {
+    tab-size:24px;
+    background:#f1f5f9;
+    padding:12px
+}
+
+
+.overflow {
+    width:220px;
+    height:70px;
+    overflow:auto;
+    border:1px solid #555;
+    padding:10px
+}
+
+
+.ellipsis {
+    width:230px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    border:1px solid #555
+}
+
+
+.long {
+    width:190px;
+    overflow-wrap:break-word;
+    border:1px solid #555
+}
+
+
+.hyphens {
+    width:230px;
+    hyphens:auto
+}

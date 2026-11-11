@@ -1,0 +1,69 @@
+input {
+    padding:10px
+}
+
+
+button {
+    padding:10px
+}
+
+
+input:checked {
+    accent-color:#16a34a
+}
+
+
+input:disabled {
+    background:#e5e7eb;
+    color:#888
+}
+
+input {
+    padding:8px;
+    margin:4px
+}
+
+
+input {
+    display:block;
+    margin:6px;
+    padding:8px
+}
+
+
+input {
+    padding:8px
+}
+
+
+.rgb {
+    background:rgb(35 125 210);
+    color:white;
+    padding:20px
+}
+
+
+.hex {
+    background:#8b5cf6;
+    color:white;
+    padding:20px
+}
+
+
+.rgba {
+    background:rgba(220,38,38,.55);
+    padding:20px
+}
+
+
+.opacity {
+    background:#2563eb;
+    color:white;
+    padding:20px;
+    opacity:.55
+}
+
+
+.text-shadow {
+    text-shadow:3px 3px 2px #aaa
+}

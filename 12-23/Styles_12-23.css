@@ -1,0 +1,104 @@
+.effect {
+    text-shadow:2px 2px 3px #999;
+    color:#174a7e;
+    font-weight:bold
+}
+
+
+.columns {
+    columns:3 120px;
+    column-gap:25px
+}
+
+
+.no-select {
+    user-select:none
+}
+
+
+.no-pointer {
+    pointer-events:none
+}
+
+
+.cursor {
+    cursor:crosshair;
+    color:#1769aa
+}
+
+
+.selection::selection {
+    background:#ffcc33;
+    color:#111
+}
+
+
+.table {
+    border-collapse:collapse
+}
+
+.table td,.table th {
+    border:1px solid #333;
+    padding:8px
+}
+
+
+.spacing {
+    border-spacing:14px 6px
+}
+
+.spacing td {
+    border:1px solid #333;
+    padding:8px
+}
+
+
+.empty {
+    empty-cells:hide;
+    border-spacing:5px
+}
+
+.empty td {
+    border:1px solid #333;
+    padding:12px
+}
+
+
+.vertical {
+    border-collapse:collapse;
+    height:100px
+}
+
+.vertical td {
+    border:1px solid #333;
+    padding:8px;
+    vertical-align:middle
+}
+
+.vertical .top {
+    vertical-align:top
+}
+
+.vertical .bottom {
+    vertical-align:bottom
+}
+
+
+.sizing {
+    width:220px;
+    height:70px;
+    box-sizing:border-box;
+    padding:15px;
+    border:5px solid #257
+}
+
+
+.pseudo::before {
+    content:"★ ";
+    color:#e49b00
+}
+
+.pseudo::after {
+    content:" ✓";
+    color:green
+}
